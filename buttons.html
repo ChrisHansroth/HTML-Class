@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0".
+        <title> Buttons in HTML</title>    
+    </head>
+
+    <body>
+        <h2> Button Example</h2>
+
+        <form action="/action_page.php" method="post"
+        <label for="fname"> First name:</label><br>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname"> Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br><br>
+        <button type="button" onclick="myFunction()">Click Me</button>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+    </form>
+    <script>
+        function myFunction() {
+            alert("Button Clicked!");
+        }
+    </script>
+    </body>
+</html>

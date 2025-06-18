@@ -1,0 +1,95 @@
+/* Backgrounds */
+
+/* Radial Gradient Backgroun */
+
+.example {
+    background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+}
+
+/* Repeating Background */
+
+.example {
+background-image: url(pattern.png);
+background-repeat: repeat-x; /* or 'repeat-y for vertical repetition, or 'repeat' for both directions */
+}
+
+/* Fixed Backgrounds */ 
+
+.example {
+    background-image: url ('fixed-background.jpg');
+    background-attachment: fixed;
+}
+
+/* Solid Color Backgrounds */
+
+.example {
+    background-color: blue;
+}
+
+/* Image Background */
+
+.element {
+    background-image: url('background-image.jpg'); /* Sets a background image for the element. */
+}
+
+/* Pattern Baclground */
+
+.element {
+    background-image: ('pattern.png'); /* sets a repeating pattern as the background. */
+    background-repeat: repeat; /* specifies that the pattern should repeat. */
+}
+
+/* Multiple Backgrounds */
+
+.element {
+    background: url('bg1.jpg') top left no-repeat, url('bg2.jpg') bottom right no-repeat, linear-gradient(to bottom, blue, red) ;
+    /* Applies multiple backgrounds - two images and a gradient. */
+}
+
+/* CSS Filters */
+.element {
+    background-image: url('background-image-jpg');
+    filter: blur(spx): /* Applies a blur filter to the background image */
+}
+
+/* Changer Cursor */
+
+button{
+    background-color: red; border: 2px solid blanchedalmond;
+cursor: pointer; /* Change Cursor to button when hovering */
+}
+
+/* Solid Border */
+
+div {
+    border: 2px solid #000:
+}
+
+/* Dotted Border */
+
+img {
+    border: 1px 
+    dotted red
+}
+
+/* Dashed Border */
+
+ul { 
+    border: 3px dashed purple;
+}
+
+/* Dotted Border */
+
+a {
+    border: 2px
+    double #800080
+}
+
+/* Border Style */
+
+button {
+    border-style: outset;
+} /* this sets the border style of all buttons to "outset", giving a three-dimensional effect */
+
+
+

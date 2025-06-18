@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Data Attribute</title>
+    </head>
+    <body>
+        <h1>Data Attribute</h1>
+
+        <!-- Using the 'data-*' attribute to store additional data-->
+         <div id="product" data-product-id="123" data-price="49.99" data-in-srock="true">
+            <h2>Product Name</h2>
+            <p> Description of the product goes here.</p>
+         </div>
+         <p id="output"></p>
+         <script>
+            // Acessing and using data from the 'data-*' attributes
+            const productElement = document.getelementById("product");
+            const productid = productelement.getattibute("data-product-id");
+            const price = productelement.getattibute("data-price")
+            const inStock = productElement.getAttribte("data-in-stock");
+            
+            //Displaying the data
+            const outputElement = document.getElementById("output")
+            outputElement.textContent = 'product ID: ${productId}, Price: $${price}, In Stcok: ${inStock}';
+        </script>
+    </body>
+<html>
